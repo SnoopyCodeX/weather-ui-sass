@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather UI</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+
+            <h1>Weather UI</h1>
+
+            <div class="search-container">
+                <input type="text" name="city" id="city" placeholder="Enter a city name">
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div class="city-name">
+                <h1>Cebu</h1>
+                <p>Mostly</p>
+                <span>Cloudy</span>
+            </div>
+
+            <div class="weather">
+                <svg class="icon" data-src="assets/images/mostly-cloudy.svg" viewBox="0 0 288 288" width="100" height="100">
+                    <g stroke-width="9.778" fill="none" fill-rule="evenodd">
+                        <path
+                            d="M100 49v34.222M46.222 136.658H12M61.916 98.573l-24.2-24.2M128.209 109.427a39.111 39.111 0 1 0-53.778 56.71"
+                            stroke="#F6FF00"></path>
+                        <path
+                            d="M276 183.102a56.222 56.222 0 0 0-56.222-56.222h-9.534c-17.963-21.15-46.919-29.36-73.31-20.788-26.391 8.572-44.996 32.23-47.103 59.9H78.05c-20.25 0-36.667 16.415-36.667 36.666 0 20.25 16.416 36.666 36.667 36.666h141.778c31.031-.027 56.173-25.19 56.173-56.222Z"
+                            stroke="#FFFFFF"></path>
+                    </g>
+                </svg>
+                <h1>32&deg;C</h1>
+            </div>
+
+            <div class="humid-cloudcover">
+                <div class="humidity">
+                    <h4>Humidity</h4>
+                    <span>64&percnt;</span>
+                </div>
+                <div class="cloud-cover">
+                    <h4>Cloud Cover</h4>
+                    <span>76&percnt;</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="shape circle-tr"></div>
+        <div class="shape circle-bl"></div>
+    </div>
+</body>
+</html>
